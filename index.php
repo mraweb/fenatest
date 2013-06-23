@@ -26,9 +26,9 @@
                 <p>Siga nas redes sociais</p>
 
                 <ul>
-                    <li><a href="#" title="Facebook" class="bt-face hidetxt">Facebook</a></li>
-                    <li><a href="#" title="Twitter" class="bt-twitter hidetxt">Twitter</a></li>
-                    <li><a href="#" title="Youtube" class="bt-youtube hidetxt">Youtube</a></li>
+                    <li><a href="#" title="Facebook" rel="external" class="bt-face hidetxt">Facebook</a></li>
+                    <li><a href="#" title="Twitter" rel="external" class="bt-twitter hidetxt">Twitter</a></li>
+                    <li><a href="#" title="Youtube" rel="external" class="bt-youtube hidetxt">Youtube</a></li>
                 </ul>
             </div>
 
@@ -51,7 +51,7 @@
             </nav>
 
             <div class="busca">
-                <label for="busca">Busca</label>
+                <label for="busca" id="placehold">Busca</label>
                 <input type="text" name="busca" id="busca" />
                 <input type="image" src="img/btbuscar.jpg" alt="Buscar" name="Buscar" class="bt-buscar" />
             </div>
@@ -63,12 +63,22 @@
             <div id="slide-home">
                 <div class="slides_container">
                     <section class="slides">
-                        <img src="" alt="" width="" height="" />
+                        <img src="img/slide.jpg" alt="Slide" width="583" height="278" class="left" />
 
                         <div class="texto">
-                            <h3>Lançada em SP a Campanha pela revisão do FGTS</h3>
+                            <h3><a href="#" title="Lançada em SP a Campanha pela revisão do FGTS">Lançada em SP a Campanha pela revisão do FGTS</a></h3>
 
-                            <p>Diretores e assessores do nosso Sindicato participaram nesta sexta-feira, 7 de junho, do lançamento da campanha pela recuperação das perdas do FGTS (Fundo de Garantia do Tempo.</p>
+                            <p>Diretores e assessores do nosso Sindicato participaram nesta sexta-feira, 7 de junho, do lançamento da campanha pela recuperação das perdas do FGTS.</p>
+                        </div>
+                    </section>
+
+                    <section class="slides">
+                        <img src="img/slide.jpg" alt="Slide" width="583" height="278" class="left" />
+
+                        <div class="texto">
+                            <h3><a href="#" title="Lançada em SP a Campanha pela revisão do FGTS">Lançada em SP a Campanha pela revisão do FGTS</a></h3>
+
+                            <p>Diretores e assessores do nosso Sindicato participaram nesta sexta-feira, 7 de junho, do lançamento da campanha pela recuperação das perdas do FGTS.</p>
                         </div>
                     </section>
                 </div>
@@ -77,7 +87,7 @@
             <div class="conselho">
                 <h3>Conselho de Classe dos Técnicos de Segurança do Trabalho</h3>
 
-                <a href="#" title="Confestest">Confestest<br /><span>Clique aqui</span></a>
+                <a href="#" title="Confestest" class="green">Confestest<br /><span>Clique aqui</span></a>
             </div>
 
             <aside class="menu-left">
@@ -98,7 +108,7 @@
                         <li><a href="" title="Comissões Tripartite">Comissões Tripartite</a></li>
                     </ul>
 
-                    <h3>Comissões de trabalho</h3>
+                    <h3 class="size16">Comissões de trabalho</h3>
 
                     <ul>
                         <li><a href="" title="Administração">Administração</a></li>
@@ -120,7 +130,7 @@
                 <h3 class="h-fena">Boletim FENATEST</h3>
                 
                 <article class="artigo">
-                    <img src="" alt="Turista alemão baleado na Rocinha" width="" height="" />
+                    <img src="img/boletim.jpg" alt="Turista alemão baleado na Rocinha" width="520" height="225" />
                     
                     <h4><a href="#" title="Turista alemão baleado na Rocinha vai conhecer o Cristo antes de viajar:" class="green">Turista alemão baleado na Rocinha vai conhecer o Cristo antes de viajar:</a></h4>
 
@@ -131,22 +141,22 @@
                     <h4>Veja mais de nosso Boletim:</h4>
 
                     <ul class="lista-01">
-                        <li><a href="#" title="">Brasil é apontado como país mais protecionista dentro do G-20</a></li>
-                        <li><a href="#" title="">Governo estuda facilitar mais a entrada de dólares no mercado</a></li>
-                        <li><a href="#" title="">Busque artista, música ou temaBuscar</a></li>
-                        <li><a href="#" title="">Wanessa está agitando as pistas; ouça pop nacional</a></li>
-                        <li><a href="#" title="">Programa tem Beirut, B.B. King e Ella Fitzgerald (foto)</a></li>
+                        <li><a href="#" title="" class="green link">Brasil é apontado como país mais protecionista dentro do G-20</a></li>
+                        <li><a href="#" title="" class="green link">Governo estuda facilitar mais a entrada de dólares no mercado</a></li>
+                        <li><a href="#" title="" class="green link">Busque artista, música ou temaBuscar</a></li>
+                        <li><a href="#" title="" class="green link">Wanessa está agitando as pistas; ouça pop nacional</a></li>
+                        <li><a href="#" title="" class="green link">Programa tem Beirut, B.B. King e Ella Fitzgerald (foto)</a></li>
                     </ul>
 
                     <h4>Boletim anteriores:</h4>
 
                     <ul class="lista-02">
-                        <li><a href="" title="">Brasil é apontado como o país...</a></li>
-                        <li><a href="" title="">Governo estuda facilitar mais a...</a></li>
-                        <li><a href="" title="">Busque artista, música ou tema...</a></li>
-                        <li><a href="" title="">Brasil é apontado como o país...</a></li>
-                        <li><a href="" title="">Governo estuda facilitar mais a...</a></li>
-                        <li><a href="" title="">Busque artista, música ou tema...</a></li>
+                        <li><a href="" title="" class="green link">Brasil é apontado como o país...</a></li>
+                        <li><a href="" title="" class="green link">Governo estuda facilitar mais a...</a></li>
+                        <li><a href="" title="" class="green link">Busque artista, música ou tema...</a></li>
+                        <li><a href="" title="" class="green link">Brasil é apontado como o país...</a></li>
+                        <li><a href="" title="" class="green link">Governo estuda facilitar mais a...</a></li>
+                        <li><a href="" title="" class="green link">Busque artista, música ou tema...</a></li>
                     </ul>
                 </section><!-- FINAL BOLETINS -->
             </section><!-- FINAL CONT CENTRAL -->
@@ -154,24 +164,24 @@
 
         <aside class="menu-right">
             <section class="video">
-                <img src="" alt="" width="" height="" />
+                <img src="img/video.jpg" alt="Vídeo" width="210" height="156" />
 
                 <h4>Vídeo</h4>
 
-                <p><a href="" title="">Jose Augusto parabeniza Armando Henrique. <span class="green">Veja</span></a></p>
+                <p><a href="#" title="">Jose Augusto parabeniza Armando Henrique. <span class="green">Veja</span></a></p>
             </section><!-- FINAL VIDEO -->
 
             <section class="outros-videos">
                 <h4>Veja outros vídeos</h4>
 
                 <ul>
-                    <li><a href="" title="">São Paulo registra um arrastão...</a></li>
-                    <li><a href="" title="">São Paulo registra um arrastão...</a></li>
-                    <li><a href="" title="">São Paulo registra um arrastão...</a></li>
-                    <li><a href="" title="">São Paulo registra um arrastão...</a></li>
+                    <li><a href="" title="" class="link green">São Paulo registra um arrastão...</a></li>
+                    <li><a href="" title="" class="link green">São Paulo registra um arrastão...</a></li>
+                    <li><a href="" title="" class="link green">São Paulo registra um arrastão...</a></li>
+                    <li><a href="" title="" class="link green">São Paulo registra um arrastão...</a></li>
                 </ul>
 
-                <p class="bt-mais"><a href="" title="Veja Mais">Veja Mais</a></p>
+                <a href="" title="Veja Mais" class="bt-mais">Veja Mais</a>
             </section><!-- FINAL OUTROS VIDEOS -->
 
             <section class="parceiros">
@@ -207,27 +217,35 @@
 
 <div class="bg-rodape">
     <footer role="contentinfo">
-        <nav class="boas-praticas" role="navigation">
-            <h3>Menu</h3>
+        <nav role="navigation">
+            <h3>Boas Práticas</h3>
 
             <ul>
-                <li><a href="" title="Pessoa Física">Pessoa Física</a></li>
-                <li><a href="" title="Pessoa Jurídica">Pessoa Jurídica</a></li>
+                <li><a href="#" title="Pessoa Física">Pessoa Física</a></li>
+                <li><a href="#" title="Pessoa Jurídica">Pessoa Jurídica</a></li>
             </ul>
         </nav><!-- FINAL BOAS PRATICAS -->
 
         <section class="banner-footer">
-            <h4>Publicidade</h4>
+            <h4 class="hidetxt">Publicidade</h4>
 
             <p><a href="" title="Publicidade"><img src="http://placehold.it/728x90&text=Publicidade" alt="Publicidade" width="728" height="90" /></a></p>
         </section><!-- FINAL BANNER FOOTER -->
 
         <div class="bottom">
             <address>
-                Brasil FENATEST
-                Sede: Rua 24 de Maio, 104 – 1º Andar – 01041-000 – Centro - São Paulo - SP<br />
-                fenatest@fenatest.org.br – www.fenatest.org.br<br />
-                Fone: (11) 3331-2700 Fax: (11)3222-9399
+                <div itemscope itemtype="http://schema.org/Organization">
+                    <span itemprop="name" class="hidetxt logo-footer">Brasil FENATEST</span>
+
+                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="pdg-top">
+                        Sede: <span itemprop="streetAddress">Rua 24 de Maio, 104 – 1º Andar - Centro</span> – 
+                        <span itemprop="postalCode">01041-000</span> - 
+                        <span itemprop="addressLocality">São Paulo</span> - 
+                        <span itemprop="addressRegion">SP</span><br />
+                        fenatest@fenatest.org.br – www.fenatest.org.br<br />
+                        Fone: <span itemprop="telephone">(11) 3331-2700</span> Fax: <span itemprop="telephone">(11) 3222-9399</span>
+                    </div>
+                </div>
             </address>
         </div><!-- FINAL BOTTOM -->
 
@@ -235,9 +253,9 @@
             <h5>Siga nas Redes Sociais</h5>
 
             <ul>
-                <li><a href="#" title="Facebook" class="bt-face">Facebook</a></li>
-                <li><a href="#" title="Twitter" class="bt-twitter">Twitter</a></li>
-                <li><a href="#" title="Youtube" class="bt-youtube">Youtube</a></li>
+                <li><a href="#" title="Facebook" rel="external" class="bt-face hidetxt">Facebook</a></li>
+                <li><a href="#" title="Twitter" rel="external" class="bt-twitter hidetxt">Twitter</a></li>
+                <li><a href="#" title="Youtube" rel="external" class="bt-youtube hidetxt">Youtube</a></li>
             </ul>
         </div><!-- FINAL MIDIAS FOOTER -->
 
@@ -248,26 +266,9 @@
 </div>
 
 <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="js/jquery.infieldlabel.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

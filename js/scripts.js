@@ -9,29 +9,44 @@ jQuery(document).ready(function(){
 });
 
 
-
-
-
-// script para colocar o iframe com wmode= transparent
-$(document).ready(function() {
-    $("iframe").each(function(){
-        var ifr_source = $(this).attr('src');
-        var wmode = "wmode=transparent";
-        if(ifr_source.indexOf('?') != -1) {
-            var getQString = ifr_source.split('?');
-            var oldString = getQString[1];
-            var newString = getQString[0];
-            $(this).attr('src',newString+'?'+wmode+'&'+oldString);
-        }
-        else $(this).attr('src',ifr_source+'?'+wmode);
+// Link box-pdr
+$(document).ready(function(){
+    $(".slides, .artigo, .video").click(function(){
+        window.location=$(this).find("a").attr("href");return false;
     });
 });
 
-// facebook
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=277634635592368";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+// fade label
+$(function(){ $("#placehold").inFieldLabels(); });
+
+// slide home
+$(function(){
+    // Set starting slide to 1
+    var startSlide = 1;
+    // Get slide number if it exists
+    if (window.location.hash) {
+        startSlide = window.location.hash.replace('#','');
+    }
+    // Initialize Slides
+    $('#slide-home').slides({
+        preload: true,
+        preloadImage: 'img/loading.gif',
+        generatePagination: false,
+        generateNextPrev: true,
+        control: true,
+        play: 8000,
+        pause: 2500,
+        hoverPause: true,
+        start: startSlide,
+        effect: 'slide'
+    });
+});
+
+// voltar ao topo
+$('.bt-voltar').click(function () {
+     $('html, body').animate({
+         scrollTop: '0px'
+     },
+     1000);
+     return false;
+ });
