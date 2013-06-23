@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <title>Brasil FENATEST</title>
-<!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <!--[if ie]>
 	<script type="text/javascript" src="js/html5-ie.js"></script>
 <![endif]-->
@@ -18,23 +18,27 @@
         <div class="descricao">
             <h2>Federação Nacional dos Técnicos de Segurança do Trabalho</h2>
 
-            <p></p>
+            <p>Entidade Sindical Representativa da Categoria - Base Territorial Nacional Fundada em 10/05/1992 - Registro no Mtb/AESB sob nº 24.000.04848/92 Código da Entidade Sindical nº 005.371.000-0 - CNPJ/MF 71.742.126/0001-80</p>
         </div>
 
         <div class="midias">
-            <ul>
-                <li><a href="#" title="Facebook" class="bt-face">Facebook</a></li>
-                <li><a href="#" title="Twitter" class="bt-twitter">Twitter</a></li>
-                <li><a href="#" title="Youtube" class="bt-youtube">Youtube</a></li>
-            </ul>
+            <div class="left">
+                <p>Siga nas redes sociais</p>
 
-            <img src="" alt="" width="" height="" />
+                <ul>
+                    <li><a href="#" title="Facebook" class="bt-face hidetxt">Facebook</a></li>
+                    <li><a href="#" title="Twitter" class="bt-twitter hidetxt">Twitter</a></li>
+                    <li><a href="#" title="Youtube" class="bt-youtube hidetxt">Youtube</a></li>
+                </ul>
+            </div>
+
+            <img src="img/ctb-cntc.jpg" alt="CTB / CNTC" width="101" height="76" class="right" />
         </div>
         
         <div class="menu">
             <nav role="navigation">
                 <ul>
-                    <li><a href="/" title="Home" class="bt-home">Home</a></li>
+                    <li><a href="/" title="Home" class="bt-home ativo">Home</a></li>
                     <li><a href="diretoria.php" title="Diretoria" class="bt-dire">Diretoria</a></li>
                     <li><a href="noticias.php" title="Notícias" class="bt-noti">Notícias</a></li>
                     <li><a href="galeria.php" title="Galeria" class="bt-gale">Galeria</a></li>
@@ -49,7 +53,7 @@
             <div class="busca">
                 <label for="busca">Busca</label>
                 <input type="text" name="busca" id="busca" />
-                <input type="image" src="img/bt-buscar.jpg" alt="Buscar" name="Buscar" class="bt-buscar" />
+                <input type="image" src="img/btbuscar.jpg" alt="Buscar" name="Buscar" class="bt-buscar" />
             </div>
         </div>
     </header><!-- FINAL HEADER -->

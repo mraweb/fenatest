@@ -3,7 +3,7 @@
 	margin:0;
 	list-style-type:none;
 }
-html, body{ min-width: 980px;}
+html, body{ min-width: 1000px;}
 .acessibilidade {
 	width:1px;
 	height:1px;
@@ -15,7 +15,7 @@ html, body{ min-width: 980px;}
 h1, h2, h3, h4{
 	font-style: normal;
 	font-weight: normal;
-	font-family: 'exo', sans-serif;
+	font-family: 'openb', sans-serif;
 }
 a, h1, h2, h3, h4, article, aside, dialog, figure, footer, header, hgroup, nav, section, blockquote, label { display: block;}
 a{ text-decoration: none; color: #919191;}
@@ -29,12 +29,32 @@ img{ border: none;}
 .left{ float: left;}
 .right{ float: right;}
 .img-left{ float: left; margin: 0 15px 10px 0;}
+@font-face {
+    font-family: 'openr';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#openr') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'openb';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#openb') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 body{
-	color: #004f41;
-	font-size: 12px;
-	font-family: Verdana, Geneva, sans-serif;
-	background-color: #5f594d;
+	color: #404040;
+	font-size: 14px;
+	font-family: 'openr', sans-serif;
+	background-color: #16a755;
 }
 
 /*** HOME ***/
@@ -44,40 +64,109 @@ body{
 	background: #FFF url(../img/bghome.jpg) center top no-repeat;
 }
 header{
-	width: 960px;
-	height: 134px;
+	width: 1000px;
+	height: 249px;
 	margin: 0 auto;
 }
 header h1{
-	width: 240px;
-	height: 69px;
-	padding-top: 18px;
+	width: 131px;
+	height: 123px;
+	float: left;
+	padding: 17px 0 0 22px;
 }
 header h1 a{
-	width: 240px;
-	height: 69px;
-	background-image: url(../img/logo.jpg);
+	width: 131px;
+	height: 123px;
+	background-image: url(../img/fenatest.jpg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.descricao{
+	width: 430px;
+	height: 88px;
+	float: left;
+	padding: 52px 0 0 33px;
+}
+.descricao h2{ font-size: 14px; padding-bottom: 5px;}
+.descricao p{ font-size: 11px; font-family: 'openr', sans-serif;}
+.midias{
+	width: 260px;
+	height: 80px;
+	float: right;
+	padding-top: 45px;
+}
+.midias p{ font-size: 11px; padding-bottom: 5px;}
+.midias li{
+	width: 40px;
+	height: 34px;
+	float: left;
+}
+.midias li a{ width: 30px; height: 34px;}
+.midias li a.bt-face{ background-image: url(../img/btface.jpg);}
+.midias li a.bt-twitter{ background-image: url(../img/bttwitter.jpg);}
+.midias li a.bt-youtube{ background-image: url(../img/btyoutube.jpg);}
+.menu{
+	width: 1000px;
+	height: 53px;
+	float: left;
+	background-color: #16a755;
+	border-top: 4px solid #16994f;
+	margin-top: 25px;
+	padding-top: 17px;
+}
+.menu ul{
+	width: 770px;
+	height: 34px;
+	float: left;
+	margin-left: 10px;
+}
+.menu ul li{ float: left;}
+.menu ul li a{
+	height: 27px;
+	padding: 0 10px;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #FFF;
+	padding-top: 7px;
+}
+.menu ul li a:hover, .menu ul li a:focus, .menu ul li a.ativo{ 
+	border-radius: 25px; background-color: #176a3b;}
+.busca{
+	width: 186px;
+	height: 29px;
+	float: right;
+	margin-right: 7px;
+	border-radius: 25px;
+	background-color: #176a3b;
+	position: relative;
+	padding: 5px 0 0 20px;
+}
+.busca label{
+	color: #FFF;
+	font-size: 14px;
+	position: absolute;
+	left: 20px;
+	top: 8px;
+}
+.busca input{
+	width: 150px;
+	height: 24px;
+	border: none;
+	float: left;
+	background: transparent;
+	outline: none;
+	font-size: 14px;
+	color: #FFF;
+}
+.busca .bt-buscar{
+	width: 23px;
+	height: 19px;
+	background: none;
+	margin-top: 3px;
+}
+#content{
+	width: 1000px;
+	margin: 0 auto;
+}
 
 
 
